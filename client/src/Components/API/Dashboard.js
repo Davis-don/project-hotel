@@ -43,12 +43,12 @@ function Dashboard() {
     <div className='dashboard-card-holders'>
             <div className='card dashboard-card-reservation'>
          <form>
-         <h3 style={{textAlign:"center"}}>Create Account</h3>
+         <h3 style={{textAlign:"center"}}>Make reservations</h3>
             <label style={{width:'100%'}}>Number of reservation
-                <input type='number'className='form-control' placeholder='password'/>
+                <input type='number'className='form-control' placeholder='Number of reservations'/>
             </label>
             <label style={{width:'100%'}}>Date
-                <input type='date'className='form-control' placeholder='password'/>
+                <input type='date'className='form-control'placeholder='Date'/>
             </label>
             <div className='login-btn-div'>
                 <button className='btn btn-outline-dark'>Submit</button>

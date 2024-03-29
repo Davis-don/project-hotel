@@ -1,0 +1,186 @@
+@media (max-width:540px){
+.overall-homepage-container{
+position: relative;
+width: 100vw;
+height: 100vh;
+}
+.background-play{
+position: absolute;
+z-index: +1;
+width: 100%;
+height: 100%;
+}
+.opacity-regilator{
+position: absolute;
+z-index: +2;
+top:0px;
+width: 100%;
+height: 100%;
+background-color: black;
+opacity: 0.4;
+}
+.Hotel-name{
+        position:absolute; 
+        top:50%; 
+        left:50%; 
+        transform:translate(-50%, -50%); 
+        width:50%; /* You can specify ANY width values here */ 
+        z-index: +3;
+        color: white;
+    
+}
+.Account-creation-container{
+        position:absolute; 
+        top:50vh; 
+        left:50%; 
+        transform:translate(-50%, -50%); 
+        width:80vw; /* You can specify ANY width values here */ 
+        z-index: +4;
+        height: max-content;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    
+
+}
+}
+@media screen and (min-width:540px) and (max-width:780px){
+    .overall-homepage-container{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        }
+        .background-play{
+        position: absolute;
+        z-index: +1;
+        width: 100%;
+        height: 100%;
+        }
+        .opacity-regilator{
+        position: absolute;
+        z-index: +2;
+        top:0px;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.4;
+        }
+        .Hotel-name{
+            position:absolute; 
+            top:50%; 
+            left:50%; 
+            transform:translate(-50%, -50%); 
+            width:50%; /* You can specify ANY width values here */ 
+            z-index: +3;
+            color: white;
+        
+    }
+    .Account-creation-container{
+            position:absolute; 
+            top:50vh; 
+            left:50%; 
+            transform:translate(-50%, -50%); 
+            width:80vw; /* You can specify ANY width values here */ 
+            z-index: +4;
+            height: max-content;
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px;
+        
+    
+    }
+    
+}
+@media screen and (min-width:780px){
+    .overall-homepage-container{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        }
+        .background-play{
+        position: absolute;
+        z-index: +1;
+        width: 100%;
+        height: 100%;
+        }
+        .opacity-regilator{
+        position: absolute;
+        z-index: +2;
+        top:0px;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.4;
+        }
+        .Hotel-name{
+            position:absolute; 
+            top:50%; 
+            left:50%; 
+            transform:translate(-50%, -50%); 
+            width:50%; /* You can specify ANY width values here */ 
+            z-index: +3;
+            color: white;
+        
+    }
+    .Account-creation-container{
+        position:absolute; 
+        top:50vh; 
+        left:50%; 
+        transform:translate(-50%, -50%); 
+        width:80vw; /* You can specify ANY width values here */ 
+        z-index: +4;
+        height: max-content;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    
+
+}
+        }
+        @media screen and (min-width:540px) and (max-width:780px){
+            .overall-homepage-container{
+                position: relative;
+                width: 100vw;
+                height: 100vh;
+                }
+                .background-play{
+                position: absolute;
+                z-index: +1;
+                width: 100%;
+                height: 100%;
+                }
+                .opacity-regilator{
+                position: absolute;
+                z-index: +2;
+                top:0px;
+                width: 100%;
+                height: 100%;
+                background-color: black;
+                opacity: 0.4;
+                } 
+                .Hotel-name{
+                    position:absolute; 
+                    top:50%; 
+                    left:50%; 
+                    transform:translate(-50%, -50%); 
+                    width:50%; /* You can specify ANY width values here */ 
+                    z-index: +3;
+                    color: white;
+                
+            }
+            .Account-creation-container{
+                position:absolute; 
+                top:50vh; 
+                left:50%; 
+                transform:translate(-50%, -50%); 
+                width:80vw; /* You can specify ANY width values here */ 
+                z-index: +4;
+                height: max-content;
+                background-color: white;
+                border-radius: 20px;
+                padding: 20px;
+            
+        
+        }
+    
+}

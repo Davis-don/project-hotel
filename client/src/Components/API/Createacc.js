@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function Createacc() {
   return (
     <div className='overall-create-account'>
+        <form>
         <h3 style={{textAlign:"center"}}>Create Account</h3>
             <label style={{width:'100%'}}>First Name
                 <input type='text'className='form-control' placeholder='First Name'/>
@@ -21,6 +22,7 @@ function Createacc() {
             <div className='login-btn-div'>
                 <button className='btn btn-outline-dark'>Submit</button>
             </div>
+            </form>
         </div>
   )
 }

@@ -3,6 +3,7 @@ import './Login.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { useState } from 'react'
 import Createacc from './Createacc'
+import { Link } from 'react-router-dom'
 
 function Login() {
     const [Login,setLogin]=useState(true)
@@ -19,7 +20,7 @@ function Login() {
                 <input type='password'className='form-control' placeholder='password'/>
             </label>
             <div className='login-btn-div'>
-                <button className='btn btn-outline-dark'>Login</button>
+                <button className='btn btn-outline-dark'><Link style={{color:"black",textDecoration:"none"}} to='/Dashboard'>Login</Link></button>
             </div>
             <p style={{textAlign:'center'}}>Already have an account? <span className='text-primary' onClick={()=>{setLogin(false);setCreate(true)}}>Sign in</span></p>
         </form>
